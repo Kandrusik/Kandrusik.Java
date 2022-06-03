@@ -34,8 +34,4 @@ public class Task3 {
         System.out.println("Array of numbers that are multiples of 3:");
         return listOfResults;
     }
-
-    public static void main(String[] args) {
-        System.out.println(getNumbersMultipliesOfThree());
-    }
 }
