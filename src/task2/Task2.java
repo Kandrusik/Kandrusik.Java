@@ -8,7 +8,7 @@ public class Task2 {
     public static final String NAME = "Вячеслав";
 
     public static String getName() {
-        System.out.print("Enter the name: ");
+        System.out.print("Введите имя: ");
         Scanner in = new Scanner(System.in);
         if (Objects.equals(in.next(), NAME)) {
             return "Привет, Вячеслав";

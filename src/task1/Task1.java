@@ -5,17 +5,17 @@ import java.util.Scanner;
 public class Task1 {
 
     public static void getNumber() {
-        System.out.print("Enter number: ");
+        System.out.print("Введите номер: ");
         Scanner in = new Scanner(System.in);
         try {
-            if (in.nextInt() > 7) {
+            if (in.nextFloat() > 7) {
                 System.out.println("Привет");
             } else {
-                System.out.println("The number is invalid, please try again");
+                System.out.println("Номер некорректный, повторите еще раз");
                 getNumber();
             }
         } catch (Exception o) {
-            System.out.println("You have not entered a number");
+            System.out.println("Вы ввели не номер");
             getNumber();
         }
     }
